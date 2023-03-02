@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * print_sign - print the sign of a number
+ * @n: Making sign prints
+ * Return: 1 if number iss greater than zero, 0 if number is zero
+ * -1 if number is less than zero
+ */
+
 int print_sign(int n)
 {
 	if (n > 0)
